@@ -37,7 +37,7 @@ public class StudentController {
 	{
 		return ss.getall();
 	}
-	@GetMapping(value="/GetStudent/{id}")
+	@GetMapping(value="/GetAll/{id}")
 	public Student get(@PathVariable int id)
 	{
 		return ss.get(id);
